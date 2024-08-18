@@ -1,49 +1,40 @@
-import sys
-sys.stdin = open("input.txt", "r")
+# dfs
+# ci,cj: 현재 좌표 / bent: 꺽은 수 / v: 방문 저장 배열
+def dfs(ci, cj, bent, v):
+    global ans
 
-
-def dfs(stores, cx, cy, start_x, start_y, count, chk_num, direction):
-    dxy = [(1,1), (1,-1), (-1,-1), (-1,1)] # 상우, 하우, 하좌, 상좌 => 시계방향 사각형으로 돌도록 함
-    global max_count
-
-    # 현재 방향(direction)부터 탐색하도록
-    # 한번 수행했던 방향은 탐색하지 않게 됨
-    for i in range(direction, 4):
-        nx, ny = cx + dxy[i][0], cy + dxy[i][1]
-
-        # 범위 넘어가면 다음 방향으로 틀도록
-        if nx < 0 or ny < 0 or nx >= N or ny >= N:
-            continue
-
-        if count == 1:
-            first_dist = abs(nx - start_x) + abs(ny - start_y)
-        elif count == 2:
-            if first_dist * 2 < max_count:
-                return
-
-        # 처음 위치로 돌아오면 종료
-        # 사각형이 되려면 최소 4방향을 돌아야 함
-        if (nx, ny) == (start_x, start_y) and count >= 3:
-            max_count = max(max_count, count + 1) # 디저트 개수 갱신
+    if bent == 2:
+        if len(v) * 2 < ans:
             return
 
-        # 아직 방문하지 않았으면 갈 수 있음
-        if stores[nx][ny] not in chk_num:
-            chk_num.add(stores[nx][ny]) # 방문한 가게의 디저트 숫자 담기
-            dfs(stores, nx, ny, start_x, start_y, count + 1, chk_num, i)
-            chk_num.remove(stores[nx][ny]) # 방문 복구
+    if bent == 4:
+        return
+
+    # 3에서 리턴되면 x, 3번 꺽고 직진해야 시작 좌표 만남
+    if bent == 3:
+        # 시작 좌표와 동일한지 확인
+        if ci == si and cj == sj:
+            # 중복 값 없는지 확인
+            if len(v) == len(set(v)):
+                ans = max(ans, len(v))
+
+    ni, nj = ci + dij[bent][0], cj + dij[bent][1]
+
+    if 0 <= ni < N and 0 <= nj < N:
+        dfs(ni, nj, bent + 1, v + [lst[ci][cj]])  # 방향 꺽음
+        dfs(ni, nj, bent, v + [lst[ci][cj]])  # 킵 고잉
 
 
+# main
 T = int(input())
-# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
-    arr = [list(map(int, input().split())) for _ in range(N)] # N*N 크기 디저트 카페
+    lst = [list(map(int, input().split())) for _ in range(N)]
+    ans = -1
+    dij = [(1, 1), (1, -1), (-1, -1), (-1, 1)]  # 대각선 이동 방향 인덱스: 우하, 좌하, 좌상, 우상
 
-    max_count = -1 # 디저트 최대 종류 수, 만들 수 없으면 -1이므로
+    for si in range(N - 2):
+        for sj in range(1, N - 1):
+            dfs(si, sj, 0, [])
 
-    for i in range(N):
-        for j in range(N):
-            dfs(arr, i, j, i, j, 0, set([arr[i][j]]), 0)
-
-    print(f"#{test_case} {max_count}")
+    print(f'#{tc}', ans)
