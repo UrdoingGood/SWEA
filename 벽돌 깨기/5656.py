@@ -1,28 +1,46 @@
 import sys
 sys.stdin = open('input.txt', 'r')
 
-def copy_arr(arr):
-    return [row[:] for row in arr]
+# 구슬 쏠 위치 선택
 
-def bomb_arr(arr, )
+# 구슬 명중한 벽돌 + 주변 벽돌 파괴
 
-def dfs(arr, depth):
+# 파괴된 벽돌 제거, 남은 벽돌 아래로 떨어뜨리기
+
+# 위 과정 반복, 남은 벽돌 수 계산
+
+
+# 연쇄적으로 부수기
+def bfs():
+    pass
+
+# N번 수행
+def dfs(arr, depth, col, row):
+    global min_blocks
+    dxy = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+    cx, cy = col, row
+
+    for dx
+    for dx, dy in dxy:
+        nx, ny = cx + dx, cy + dy
+
     # 맨 윗 줄에 있으면
     # 그것이 현재 dfs
-    # 그것을 0으로 바꾸고 그 옆에 있는 것으로 dfs, count 값은 최댓값으로 갱신
+    # 그것을 0으로 바꾸고 그 옆에 있는 것으로 dfs, count 값은 최솟값으로 갱신
 
 
 T = int(input())
 for test_case in range(1, T+1):
     N, M, H = list(map(int, input().split(' ')))
     arr = [list(map(int, input(' '))) for _ in range(H)]
-    res = dfs(arr, N)
-    print(f"{test_case} {res}")
+    min_blocks = float('inf')
 
-# 구슬 쏠 위치 선택
-# 구슬 명중한 벽돌 + 주변 벽돌 파괴
-# 파괴된 벽돌 제거, 남은 벽돌 아래로 떨어뜨리기
-# 위 과정 반복, 남은 벽돌 수 계산
+    for col in range(H):
+        for row in range(M):
+            dfs(arr, N, col, row)
+
+    print(f"{test_case} {min_blocks}")
+
 
 '''
 def copy_board(board):
