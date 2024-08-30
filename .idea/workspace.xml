@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/그룹 나누기/5248.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/줄기세포배양/박가연.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준_게리맨더링/17471.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준_게리맨더링/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준_퇴사/14501.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
