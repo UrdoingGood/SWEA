@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/백준_게리맨더링/17471.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준_게리맨더링/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준_퇴사/14501.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ 파도반 수열/3376.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ 파도반 수열/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프 최소 비용/5263.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프 최소 비용/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/물놀이를 가자/10966.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/물놀이를 가자/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이항계수/5256.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이항계수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/창용 마을 무리의 개수/7465.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/창용 마을 무리의 개수/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +42,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\SW역량평가0819" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\줄기세포배양" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\암호문3" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\이진수 표현" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\새로운 불면증 치료법" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\그래프 최소 비용" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\최장 증가 부분 수열" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\ 파도반 수열" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\해피박스" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\이항계수" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2105_다른방법">
-    <configuration name="10726" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.3376">
+    <configuration name="10966" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,53 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/이진수 표현" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/물놀이를 가자" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/이진수 표현/10726.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="17471" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준_게리맨더링" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준_게리맨더링/17471.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2105" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/디저트 카페" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/디저트 카페/2105.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/물놀이를 가자/10966.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5653" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3376" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +100,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/줄기세포배양" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ 파도반 수열" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/줄기세포배양/5653.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ 파도반 수열/3376.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5256" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/이항계수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/이항계수/5256.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7465" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/창용 마을 무리의 개수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/창용 마을 무리의 개수/7465.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3376" />
+        <item itemvalue="Python.5256" />
+        <item itemvalue="Python.10966" />
+        <item itemvalue="Python.7465" />
         <item itemvalue="Python.2105_다른방법" />
-        <item itemvalue="Python.2105" />
-        <item itemvalue="Python.17471" />
-        <item itemvalue="Python.5653" />
-        <item itemvalue="Python.10726" />
       </list>
     </recent_temporary>
   </component>
