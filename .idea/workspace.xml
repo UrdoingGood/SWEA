@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ 파도반 수열/3376.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ 파도반 수열/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/그래프 최소 비용/5263.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/그래프 최소 비용/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/물놀이를 가자/10966.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/물놀이를 가자/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이항계수/5256.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이항계수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/창용 마을 무리의 개수/7465.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/창용 마을 무리의 개수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/사랑의 카운슬러/1494.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/사랑의 카운슬러/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/물놀이를 가자/10966.py" beforeDir="false" afterPath="$PROJECT_DIR$/물놀이를 가자/10966.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +31,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\SWEA\사랑의 카운슬러" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\그래프 최소 비용" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\최장 증가 부분 수열" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\ 파도반 수열" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\해피박스" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\이항계수" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3376">
+  <component name="RunManager" selected="Python.10966">
     <configuration name="10966" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10966" />
         <item itemvalue="Python.3376" />
         <item itemvalue="Python.5256" />
-        <item itemvalue="Python.10966" />
         <item itemvalue="Python.7465" />
         <item itemvalue="Python.2105_다른방법" />
       </list>
