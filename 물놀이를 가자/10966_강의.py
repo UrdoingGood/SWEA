@@ -18,7 +18,7 @@ def bfs(N, M):
         i, j = q.popleft() # 인접한 땅을 조사할 격자칸 인덱스 디큐
         for di, dj in [[0, 1], [1, 0], [-1, 0], [0, -1]]:
             ni, nj = i+di, j+dj
-            if 0 <= ni < N and 0 <= nj < M and visited[ni][nj] == -1:
+            if 0 <= ni < N and 0 <= nj < M and visited[ni][nj] != 0:
                 q.append((ni, nj))
                 visited[ni][nj] = visited[i][j] + 1
                 ans += visited[ni][nj]
