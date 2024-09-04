@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/물놀이를 가자/10966.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/물놀이를 가자/10966_수업시간.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ 파도반 수열/3376.py" beforeDir="false" afterPath="$PROJECT_DIR$/파도반 수열/3376.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ 파도반 수열/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/파도반 수열/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/준환이의 양팔저울/3234.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/준환이의 양팔저울/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/특별한 정렬/19646.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/특별한 정렬/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/물놀이를 가자/10966_강의.py" beforeDir="false" afterPath="$PROJECT_DIR$/물놀이를 가자/10966_강의.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최대상금/1244.py" beforeDir="false" afterPath="$PROJECT_DIR$/최대상금/1244.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +37,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\SWEA\특별한 정렬" />
+      <recent name="C:\Users\SSAFY\Desktop\SWEA\준환이의 양팔저울" />
       <recent name="C:\Users\SSAFY\Desktop\SWEA\사랑의 카운슬러" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\그래프 최소 비용" />
       <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\최장 증가 부분 수열" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\ 파도반 수열" />
-      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\해피박스" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10966">
+  <component name="RunManager" selected="Python.19646">
     <configuration name="10966" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7465_강의" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="19646" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/창용 마을 무리의 개수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특별한 정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/창용 마을 무리의 개수/7465_강의.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특별한 정렬/19646.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.19646" />
         <item itemvalue="Python.10966" />
         <item itemvalue="Python.10966_수업시간" />
         <item itemvalue="Python.10966_강의 (1)" />
         <item itemvalue="Python.1244" />
-        <item itemvalue="Python.7465_강의" />
       </list>
     </recent_temporary>
   </component>
