@@ -33,7 +33,9 @@ T = int(input())
 for test_case in range(1, T+1):
     N, M, H = list(map(int, input().split(' ')))
     arr = [list(map(int, input(' '))) for _ in range(H)]
-    min_blocks = float('inf')
+    total_broken = 0
+
+    total_block_cnt
 
     for col in range(H):
         for row in range(M):
