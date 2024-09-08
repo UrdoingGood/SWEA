@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/벌꿀 채취/2115_itertools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수영장/1952.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수영장/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로세서 연결하기/1767.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로세서 연결하기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/핀볼 게임/5650.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/핀볼 게임/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/문자열 비교/4864.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/문자열 비교/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/보물상자 비밀번호/5658_보충.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/요리사/4012_연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/인수의 생일 파티/1795.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/인수의 생일 파티/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SWEA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/벌꿀 채취/2115.py" beforeDir="false" afterPath="$PROJECT_DIR$/벌꿀 채취/2115.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/벽돌 깨기/5656.py" beforeDir="false" afterPath="$PROJECT_DIR$/벽돌 깨기/5656.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/쇠막대기 자르기/5432.py" beforeDir="false" afterPath="$PROJECT_DIR$/쇠막대기 자르기/5432.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/특이한 자석/4013.py" beforeDir="false" afterPath="$PROJECT_DIR$/특이한 자석/4013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/수영장/1952.py" beforeDir="false" afterPath="$PROJECT_DIR$/수영장/1952.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로세서 연결하기/1767.py" beforeDir="false" afterPath="$PROJECT_DIR$/프로세서 연결하기/1767.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +38,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\인수의 생일 파티" />
+      <recent name="C:\Users\1222p\OneDrive\바탕 화면\SWEA\문자열 비교" />
       <recent name="C:\Users\SSAFY\Desktop\SWEA\수영장" />
       <recent name="C:\Users\SSAFY\Desktop\SWEA\프로세서 연결하기" />
       <recent name="C:\Users\SSAFY\Desktop\SWEA\핀볼 게임" />
-      <recent name="C:\Users\SSAFY\Desktop\SWEA\특별한 정렬" />
-      <recent name="C:\Users\SSAFY\Desktop\SWEA\준환이의 양팔저울" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4013">
-    <configuration name="10966" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1767">
+    <configuration name="123123132" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/물놀이를 가자" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/요리사" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/물놀이를 가자/10966.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/요리사/123123132.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19646" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1767" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특별한 정렬" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/프로세서 연결하기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특별한 정렬/19646.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/프로세서 연결하기/1767.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4013" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1795" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특이한 자석" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/인수의 생일 파티" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특이한 자석/4013.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/인수의 생일 파티/1795.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4013_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4012_연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특이한 자석" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/요리사" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특이한 자석/4013_dfs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/요리사/4012_연습.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5432" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4864" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/쇠막대기 자르기" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/문자열 비교" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/쇠막대기 자르기/5432.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/문자열 비교/4864.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4013" />
-        <item itemvalue="Python.4013_dfs" />
-        <item itemvalue="Python.5432" />
-        <item itemvalue="Python.19646" />
-        <item itemvalue="Python.10966" />
+        <item itemvalue="Python.1767" />
+        <item itemvalue="Python.123123132" />
+        <item itemvalue="Python.4012_연습" />
+        <item itemvalue="Python.1795" />
+        <item itemvalue="Python.4864" />
       </list>
     </recent_temporary>
   </component>
