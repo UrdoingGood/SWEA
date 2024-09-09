@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/문자열 비교/4864.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문자열 비교/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/보물상자 비밀번호/5658_보충.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/요리사/4012_연습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인수의 생일 파티/1795.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/인수의 생일 파티/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SWEA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/점심 식사시간/2383.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/수영장/1952.py" beforeDir="false" afterPath="$PROJECT_DIR$/수영장/1952.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로세서 연결하기/1767.py" beforeDir="false" afterPath="$PROJECT_DIR$/프로세서 연결하기/1767.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
