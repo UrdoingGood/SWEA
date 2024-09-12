@@ -1,46 +1,30 @@
-from collections import deque
 import sys
 sys.stdin = open("input.txt", "r")
 
+# si, sj : 시작 위치
+# ei, ej : 끝 위치
+dxy = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+def bfs(si, sj, ei, ej):
+    q = []
+    v = [[10000]*N for _ in range(N)]
 
-def recovery(arr, x, y):
-    global min_time
-    dxy = [(-1, 0), (1, 0), (0, -1), (0, 1)]
-    visited = [[False] * N for _ in range(N)]
-    taken_time = 0
-    time = []
-    queue = deque([(x, y)])
+    q.append((si, sj))
+    v[si][sj] = arr[si][sj]
 
-    while queue:
-        cx, cy = queue.popleft()
+    while q:
+        ci, cj = q.pop(0)
         for dx, dy in dxy:
-            nx, ny = cx + dx, cy + dy
-
-            if nx < 0 or nx >= N or ny < 0 or ny >= N:
-                continue
-            if visited[nx][ny]:
-                continue
-
-            queue.append((nx, ny))
-            visited[nx][ny] = True
-
-            taken_time += arr[nx][ny]
-            print(arr[nx][ny])
-            if (nx, ny) == (N - 1, N - 1): # 도착점
-                time.append(taken_time)
-                return min(time)
-    return 0
-
+            ni, nj = ci+dx, cj+dy
+            if 0 <= ni < N and 0 <= nj < N and v[ci][cj] + arr[ni][nj] < v[ni][nj]:
+                q.append((ni, nj))
+                v[ni][nj] = v[ci][cj] + arr[ni][nj]
+    return v[ei][ej]
 
 T = int(input())
 for test_case in range(1, T + 1):
     N = int(input())
     arr = [list(map(int, input())) for _ in range(N)]
-    min_time = float('inf')
 
-    for i in range(N):
-        for j in range(N):
-            if (i, j) == (0, 0): # 출발점
-                result = recovery(arr, i, j)
+    res = bfs(0, 0, N-1, N-1)
 
-    print(f"#{test_case} {result}")
+    print(f"#{test_case} {res}")
