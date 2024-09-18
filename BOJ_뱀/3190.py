@@ -1,45 +1,82 @@
 import sys
 sys.stdin = open('input.txt', 'r')
 
+from collections import deque
 
-def bfs(si, sj, ei, ej):
-    global time
-    queue = []
 
-    queue.append((si, sj))
-    board_arr[si][sj] = board_arr[ei][ej] = 1
+def rotate(dxy, ci, cj):
+    if dxy == 0:
+        return ci, cj+1
+    elif dxy == 1:
+        return ci+1, cj
+    elif dxy == 2:
+        return ci, cj-1
+    else:
+        return ci-1, cj
+
+
+def bfs(i, j):
+    global count, apple, direct
+
+    # 뱀의 현재 방향
+    # dxy가 0(j 증가), 1(i 증가), 2(j 감소), 3(i 감소)
+    dxy = 0
+
+    queue = deque()
+    queue.append((i, j))
+
+    # 이동한 시간
+    time = 0
 
     while queue:
-        ci, cj = queue.pop(0)
-        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
-            ni, nj = ci + dx, cj + dy
-            queue.append((ni, nj))
+        time += 1
 
-            if board_arr[ni][nj] == 2: # 자신의 몸과 만나면 종료
-                return
+        # 뱀 현재 머리 위치
+        # 머리 위치는 계속 변하니까 deque 끝으로 새롭게 들어감 => 인덱스가 -1
+        ci, cj = queue[-1]
 
-            if 0 <= ni < N and 0 <= nj < N:
-                if board_arr[ni][nj] == 1: # 사과 먹기
-                    board_arr[ni][nj] = 0
-                else:
-                    ei, ej = ei
+        # 뱀 다음 머리 위치
+        ni, nj = rotate(dxy, ci, cj)
 
-            # === 수정할 내용
-            # 사과 먹으면 뱀 길이 +1
-            # time은 이동할때마다 +1
-            # 상하/좌우 이동 방향 체크해서 L(왼), D(오) 회전하기
+        # 벽에 부딪히는 경우
+        if ni <= 0 or ni > N or nj <= 0 or nj > N:
+            return time
 
-time = 0 # 게임 소요 시간
-N = int(input()) # 보드의 크기
-board_arr = [[0] * N for _ in range(N)] # 아무것도 없음 : 0 / 사과 : 1 / 뱀 : 2
+        # 뱀 자신의 몸에 부딪히는 경우
+        if (ni, nj) in queue:
+            return time
 
-K = int(input()) # 사과의 개수
-for k in range(K): # 사과 심기
-    row, col = map(int, input().split())
-    board_arr[row][col] = 1
+        # 다음 위치로 이동
+        queue.append((ni, nj))
 
-L = int(input()) # 방향 변환 횟수
-rotate_arr = [list(map(int, input().split())) for _ in range(L)] # rotate_arr[i][0] : X초 / rotate_arr[i][1] == 'L' : 왼 / rotate_arr[i][1] == 'D' : 오
+        # 만약 사과가 있는 곳에 도착하면
+        if (ni, nj) in apple:
+            apple.remove((ni, nj)) # 사과 먹기
+        else: # 사과가 없으면 popleft 해서 꼬리 줄이기
+            queue.popleft()
 
-bfs(0, 1, 0, 0)
-print(time)
+        # direct가 존재하는지 여부도 함께 확인해야함
+        # time == int(direct[0][0]) 이것만 봤더니 계속 IndexError가 났음
+        if direct and time == int(direct[0][0]):
+            if direct[0][1] == 'D':  # 오른쪽 회전
+                dxy = (dxy + 1) % 4
+            else:  # 왼쪽 회전
+                dxy = (dxy + 3) % 4
+            direct.pop(0) # 회전 다 했으면 해당 정보 없애주기
+
+
+N = int(input())
+
+K = int(input())
+apple = []
+for k in range(K):
+    apple.append(tuple(map(int, input().split())))
+
+L = int(input())
+direct = []
+for l in range(L):
+    direct.append(tuple(input().split()))
+
+time = 0
+res = bfs(1, 1)
+print(res)
