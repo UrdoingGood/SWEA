@@ -1,1 +1,1 @@
-# SWEA
+[ALGO Repository로 이동함](https://github.com/UrdoingGood/ALGO)

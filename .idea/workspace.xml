@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ_토마토/7576.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ_토마토/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ_뱀/3190.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ_뱀/3190.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ_뱀/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ_뱀/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="191013e3-043e-4d5a-890d-2363b4d2ee69" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
